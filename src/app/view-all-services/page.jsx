@@ -4,12 +4,13 @@ import { useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 
 const allServices = [
-  { title: "Custom Suits", img: "https://picsum.photos/800/600?random=1" },
-  { title: "Bridal Wear", img: "https://picsum.photos/800/600?random=2" },
-  { title: "Casual Tailoring", img: "https://picsum.photos/800/600?random=3" },
-  { title: "Formal Shirts", img: "https://picsum.photos/800/600?random=4" },
-  { title: "Ethnic Wear", img: "https://picsum.photos/800/600?random=5" },
-  { title: "Kids Tailoring", img: "https://picsum.photos/800/600?random=6" },
+  { title: "Blouses", img: "https://i.pinimg.com/originals/4c/36/95/4c36954e8d732537329827154feefd8b.jpg" },
+  { title: "Chudithars", img: "https://t4.ftcdn.net/jpg/05/97/17/67/360_F_597176771_NhiShGOel7simhczk414Y8iBEPir5drg.jpg" },
+  { title: "Shirts", img: "https://img.freepik.com/premium-photo/black-shirt-white-shirt-jeans-shirt-wooden-background_35380-726.jpg?semt=ais_incoming&w=740&q=80" },
+  { title: "Pants", img: "https://img.freepik.com/premium-photo/pair-grey-pants-with-word-khaki-them_783884-38340.jpg?semt=ais_incoming&w=740&q=80" },
+  { title: "School Uniforms", img: "https://img.freepik.com/premium-photo/white-blue-school-uniform-with-red-stripe-front_14117-10641.jpg" },
+  { title: "Dress Alterations", img: "https://www.loveyourtailor.ca/wp-content/uploads/2023/12/jeans-alteration.jpg" },
+  // { title: "Repairs & Adjustments", img: "https://picsum.photos/800/600?random=6" }
 ];
 
 export default function ViewAllServicesPage() {

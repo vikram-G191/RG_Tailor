@@ -5,16 +5,24 @@ import { useRouter } from "next/navigation";
 import { useThemeHook } from "../context/ThemeContext";
 
 const allGallery = [
-  "https://picsum.photos/id/1011/800/600",
-  "https://picsum.photos/id/1012/800/600",
-  "https://picsum.photos/id/1013/800/600",
-  "https://picsum.photos/id/1015/800/600",
-  "https://picsum.photos/id/1016/800/600",
-  "https://picsum.photos/id/1018/800/600",
-  "https://picsum.photos/id/1020/800/600",
-  "https://picsum.photos/id/1024/800/600",
-  "https://picsum.photos/id/1025/800/600",
-  "https://picsum.photos/id/1033/800/600",
+  // "https://picsum.photos/id/1011/800/600",
+  // "https://picsum.photos/id/1012/800/600",
+  // "https://picsum.photos/id/1013/800/600",
+  // "https://picsum.photos/id/1015/800/600",
+  // "https://picsum.photos/id/1016/800/600",
+  // "https://picsum.photos/id/1018/800/600",
+  // "https://picsum.photos/id/1020/800/600",
+  // "https://picsum.photos/id/1024/800/600",
+  // "https://picsum.photos/id/1025/800/600",
+  // "https://picsum.photos/id/1033/800/600",
+  "https://t4.ftcdn.net/jpg/05/97/17/67/360_F_597176771_NhiShGOel7simhczk414Y8iBEPir5drg.jpg" ,
+  "https://img.freepik.com/premium-photo/black-shirt-white-shirt-jeans-shirt-wooden-background_35380-726.jpg?semt=ais_incoming&w=740&q=80" ,
+   "https://img.freepik.com/premium-photo/pair-grey-pants-with-word-khaki-them_783884-38340.jpg?semt=ais_incoming&w=740&q=80" ,
+   "https://img.freepik.com/premium-photo/white-blue-school-uniform-with-red-stripe-front_14117-10641.jpg" ,
+   "https://www.loveyourtailor.ca/wp-content/uploads/2023/12/jeans-alteration.jpg" ,
+   "https://static.vecteezy.com/system/resources/thumbnails/044/281/196/small/mannequin-in-a-grey-men-s-jacket-in-a-modern-tailor-shop-photo.jpg" ,
+  "https://i.pinimg.com/originals/4c/36/95/4c36954e8d732537329827154feefd8b.jpg" ,
+ "https://nettoyeurmarieclaire.com/wp-content/uploads/2024/02/Pants-Alteration-1024x683.jpg" 
 ];
 
 export default function ViewAllGalleryPage() {

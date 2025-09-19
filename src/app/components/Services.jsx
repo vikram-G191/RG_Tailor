@@ -4,12 +4,14 @@ import Link from "next/link";
 import { useThemeHook } from "../context/ThemeContext";
 
 const services = [
-  { title: "Custom Suits", img: "https://picsum.photos/800/600?random=1" },
-  { title: "Bridal Wear", img: "https://picsum.photos/800/600?random=2" },
-  { title: "Casual Tailoring", img: "https://picsum.photos/800/600?random=3" },
-  { title: "Traditional Wear", img: "https://picsum.photos/800/600?random=4" },
-  { title: "Kids Wear", img: "https://picsum.photos/800/600?random=5" },
-  { title: "Alterations", img: "https://picsum.photos/800/600?random=6" },
+  // { title: "Custom Suits", img: "https://picsum.photos/800/600?random=1" },
+  // { title: "Bridal Wear", img: "https://picsum.photos/800/600?random=2" },
+  // { title: "Casual Tailoring", img: "https://picsum.photos/800/600?random=3" },
+  // { title: "Traditional Wear", img: "https://picsum.photos/800/600?random=4" },
+  // { title: "Kids Wear", img: "https://picsum.photos/800/600?random=5" },
+  { title: "Men’s Tailoring", img: "https://static.vecteezy.com/system/resources/thumbnails/044/281/196/small/mannequin-in-a-grey-men-s-jacket-in-a-modern-tailor-shop-photo.jpg" },
+  { title: "Women’s Tailoring", img: "https://i.pinimg.com/originals/4c/36/95/4c36954e8d732537329827154feefd8b.jpg" },
+  { title: "Clothing Alterations", img: "https://nettoyeurmarieclaire.com/wp-content/uploads/2024/02/Pants-Alteration-1024x683.jpg" }
 ];
 
 export default function Services() {

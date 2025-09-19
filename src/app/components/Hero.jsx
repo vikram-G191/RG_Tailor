@@ -51,7 +51,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('https://picsum.photos/1920/1080?blur=2')",
+          backgroundImage: "url('/sewing-machine.jpg')",
         }}
       />
       <div
