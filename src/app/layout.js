@@ -100,7 +100,7 @@ export const metadata = {
     siteName: "Ganesh Tailor",
     images: [
       {
-        url: "/og-image.jpg", // ⚠️ Create a 1200x630px image and save it as /public/og-image.jpg
+        url: "/og-image.png", // ⚠️ Create a 1200x630px image and save it as /public/og-image.png
         width: 1200,
         height: 630,
         alt: "Ganesh Tailor - Best Custom Tailor in Coimbatore",
@@ -134,7 +134,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   name: "Ganesh Tailor",
-  image: "https://ganeshtailor.netlify.app/og-image.jpg",
+  image: "https://ganeshtailor.netlify.app/og-image.png",
   "@id": "https://ganeshtailor.netlify.app",
   url: "https://ganeshtailor.netlify.app",
   telephone: "+919486662264",
