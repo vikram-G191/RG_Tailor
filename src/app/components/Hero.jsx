@@ -38,6 +38,7 @@
 "use client";
 import { motion } from "framer-motion";
 import { useThemeHook } from "../context/ThemeContext";
+import Image from "next/image";
 
 export default function Hero() {
   const { theme } = useThemeHook();
@@ -48,11 +49,19 @@ export default function Hero() {
       className="relative h-screen flex items-center justify-center overflow-hidden"
     >
       {/* Background Image with Overlay */}
-      <div
+      {/* <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
           backgroundImage: "url('/sewing-machine.jpg')",
         }}
+      /> */}
+      {/* <Image src="/sewing-machine.jpg" alt="Sewing Machine" layout="fill" objectFit="cover"/> */}
+      <Image
+        src="/sewing-machine.jpg"
+        alt="Background"
+        fill   // ⬅ this makes it act like background-size: cover
+        className="object-cover"
+        priority
       />
       <div
         className={`absolute inset-0 ${
